@@ -23,11 +23,11 @@ This assignment implements both TCP and UDP client-server models to compare perf
 
 ## Expected Outputs
 - **TCP:**
-- The server will print each received message.
-- The client sends 100 messages, logs each round-trip time, and prints the average latency and estimated throughput.
+    - The server will print each received message.
+    - The client sends 100 messages, logs each round-trip time, and prints the average latency and estimated throughput.
 - **UDP:**
-- The server will print received messages and indicate when a packet is dropped.
-- The client sends 100 messages, logs RTT for messages that receive a response, counts timeouts as dropped packets, and calculates the average latency, packet loss rate, and estimated throughput.
+    - The server will print received messages and indicate when a packet is dropped.
+    - The client sends 100 messages, logs RTT for messages that receive a response, counts timeouts as dropped packets, and calculates the average latency, packet loss rate, and estimated throughput.
 
 ## Observations & Analysis
 - **Latency Comparison:**
